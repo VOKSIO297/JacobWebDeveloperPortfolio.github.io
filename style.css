@@ -13,6 +13,44 @@
     font-size: 20px;
     
 }
+.n1SCROLL
+{
+    font-family: "Arial";
+    position: fixed;
+    z-index: 999;
+    color:  black;
+    top: 15px;
+    left: 20%;
+    font-size: 20px;
+    display: none;
+    
+}
+.fadeanimacja
+{
+    animation: fadeanimation 1s;
+}
+@keyframes fadeanimation {
+    0%{
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 0.8;
+    }
+}
+.pasekSCROLL
+{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    display: none;
+    height: 80px;
+    z-index: 800;
+    opacity: 0.9;
+    border-bottom-width: 3px;
+border-bottom-style: solid;
+border-bottom-color: black;
+}
 .bg1
 {
     position: absolute;
@@ -32,6 +70,18 @@
 .l1:hover{
     cursor: pointer;
 }
+#xyz
+{
+    position: fixed;
+    z-index: 999;
+    width: 40px;
+    top:    15px;
+    left: 18%;
+    display: none;
+}
+#xyz:hover{
+    cursor: pointer;
+}
 .z1 
 {
     position: absolute;
@@ -41,7 +91,49 @@
     color: lightgray;
     top: 45px;
 }
+.z2 {
+    position: absolute;
+    z-index: 999;
+    right: 25%;
+    font-size: 20px;
+    color: lightgray;
+    top: 45px;
+}
+.z2:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
 .z1:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
+.z1SCROLL 
+{
+    position: fixed;
+    z-index: 9999;
+    right: 35%;
+    font-size: 20px;
+    color: black;
+    top: 35px;
+    display: none;
+}
+.z1SCROLL:hover{
+    color: lightskyblue;
+    cursor: pointer;
+}
+.z2SCROLL
+{
+    
+        position: fixed;
+        z-index: 9999;
+        right: 25%;
+        font-size: 20px;
+        color: black;
+        top: 35px;
+        display: none;
+    
+}
+.z2SCROLL:hover{
     color: lightskyblue;
     cursor: pointer;
 }
@@ -100,35 +192,39 @@
 {
     position: absolute;
     top: 1000px;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 39%;
     font-size: 60px;
     font-family: 'Century Gothic';
 }
 .block1
 {
     position: absolute;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    top: 1300px;
+    left: 15%;
+    top: 1120px;
     height: auto;
-    width: 1400px;
+    width: 350px;
 }
 .block2
 {
     position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 1300px;
+    left: 40.5%;
+    top: 1118px;
     height: auto;
-    width: 1400px;
+    width: 350px;
 }
 .block3
 {
      position: absolute;
-left: 75%;
-transform: translate(-50%, -50%);
-top: 1300px;
+left: 65%;
+top: 1120px;
 height: auto;
-width: 1400px;
+width: 350px;
+}
+.block4
+{
+    position: absolute;
+    left: 15%;
+    top: 1500px;
+    height: auto;
+    width: 350px;
 }
