@@ -5,6 +5,7 @@ window.onload = function()
    var y2 = document.getElementById("y2");
    var y3 = document.getElementById("y3");
    var y4 = document.getElementById("y4");
+   var y5 = document.getElementById("y5");
    var menuscroll = document.getElementById("xyz"); 
    var menuscroll2 = document.getElementById("xyz2");
    var menuscroll3 = document.getElementById("xyz3");
@@ -24,6 +25,18 @@ window.onload = function()
             y2.classList.add('animate__animated', 'animate__fadeInUp');
             y3.classList.add('animate__animated', 'animate__fadeInUp');
             y4.classList.add('animate__animated', 'animate__fadeInUp');
+            y5.classList.add('animate__animated', 'animate__fadeInUp');
+
+        if (yScrollAxis > 700) 
+            menuscroll5.style.textDecoration = "underline";
+            menuscroll2.style.textDecoration = "none";
+        if (yScrollAxis < 700) 
+             menuscroll5.style.textDecoration = "none";
+        if (yScrollAxis > 1500) 
+            menuscroll5.style.textDecoration = "none";
+        if (yScrollAxis < 700)
+            menuscroll2.style.textDecoration = "underline"
+
         if (yScrollAxis > 120) {
             menuscroll4.classList.add('fadeanimacja');
             menuscroll.style.display = "block";
